@@ -1,6 +1,7 @@
 [workspace]
 resolver = "3"
 members = ["pkg/*"]
+exclude = ["pkg/call-rust-from-c-static"]
 
 [workspace.dependencies]
 eyre = "0.6.12"
