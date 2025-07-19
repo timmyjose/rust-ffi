@@ -11,6 +11,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "call-c-from-rust-raw-dynamic"
+version = "0.1.0"
+dependencies = [
+ "eyre",
+]
+
+[[package]]
 name = "cc"
 version = "1.2.30"
 source = "registry+https://github.com/rust-lang/crates.io-index"
