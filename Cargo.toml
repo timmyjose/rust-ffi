@@ -2,4 +2,6 @@
 resolver = "3"
 members = ["pkg/*"]
 
-[[workspace.dependencies]]
+[workspace.dependencies]
+eyre = "0.6.12"
+cc = "1.2.30"

@@ -1,0 +1,10 @@
+[package]
+name = "call-c-from-rust-raw"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eyre = { workspace = true }
+
+[build-dependencies]
+cc = { workspace = true }
