@@ -4,3 +4,5 @@
 **/*.dylib
 **/*.cdylib
 **/*.rlib
+**/*.class
+**/*.jar

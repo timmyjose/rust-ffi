@@ -1,8 +1,9 @@
 [workspace]
 resolver = "3"
-members = ["pkg/*"]
+members = [ "jni/hello-world/mylib","pkg/*"]
 exclude = ["pkg/call-rust-from-c-static", "pkg/call-rust-from-c-dynamic"]
 
 [workspace.dependencies]
-eyre = "0.6.12"
 cc = "1.2.30"
+eyre = "0.6.12"
+jni = "0.21.1"

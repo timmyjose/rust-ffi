@@ -6,5 +6,5 @@ edition = "2021"
 [dependencies]
 eyre = { workspace = true }
 
-[build]
+[build-dependencies]
 cc = { workspace = true }
